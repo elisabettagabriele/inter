@@ -1,4 +1,4 @@
-# inter
+# interview
 Instructions on how to run the local host
 1. Download vs code if possible
 2. Git clone the repo
