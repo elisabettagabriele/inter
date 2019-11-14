@@ -1,0 +1,86 @@
+/* container for the first pic and info. also container for last pic and info */
+.container{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row-reverse !important;
+  padding: 5% !important;
+}
+/*want the page to stretch to the full width*/
+.ui.segment{
+  padding: 0px !important;
+}
+/*for all elements after the first container*/
+.container > * {
+  text-align: left;
+  min-width: 300px;
+  margin: auto !important;
+}
+/*the first description*/
+.child1{
+  order: 2;
+}
+/*the first image*/
+.child2{
+  order: 1;
+  width: 30% !important;
+}
+/*the second div with the black and white gradient background*/
+#two{
+  background: linear-gradient(black, white);
+/*making description white for second description*/
+}
+#two > *{
+  color: white;
+}
+/*for everything in container 2, the second div..*/
+.container2 > *{
+  margin: auto !important;
+  text-align: left;
+  min-width: 300px;  
+}
+/*the second container for the next 4 series of images and descriptions*/
+.container2{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  padding-top: 5% !important; 
+  padding-left: 5% !important;
+  padding-right: 5% !important; 
+}
+/*making the header in the second div white*/
+#white_header{
+  color: white !important;
+}
+/*image*/
+.child3{
+  order: 2; 
+}
+/*description*/
+.child4{
+order: 1;
+width: 30% !important;
+}
+/*carousel div*/
+#cara{
+  margin: auto !important;
+  padding: 14px !important;
+}
+/*images in the carousel*/
+#cara img{
+  position: relative;
+  margin: auto !important;
+  padding-top: 2%;
+}
+/*descriptions and buttons in the carousel*/
+#cara .info{
+  position: relative;
+  margin-left: 60% !important;
+  top: -12em !important;
+  
+}
+
+
+
+
+
